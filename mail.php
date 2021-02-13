@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         // Отдаем ошибку с кодом 500 (internal server error).
         http_response_code(500);
-        echo "Письмо не отправлено";
+        echo "Письмо не отправлено, данный ресурс с php не работает";
     }
 
 } else {
